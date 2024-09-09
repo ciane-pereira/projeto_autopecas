@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4f6fe10699e8f144aaad0abb38558877 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4f6fe10699e8f144aaad0abb38558877" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4f6fe10699e8f144aaad0abb38558877 = L.map(
+                "map_4f6fe10699e8f144aaad0abb38558877",
+                {
+                    center: [-19.840497300000003, -43.96621627080927],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ef19f09fc8250e07fc44b282e3459160 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ef19f09fc8250e07fc44b282e3459160.addTo(map_4f6fe10699e8f144aaad0abb38558877);
+        
+    
+            var marker_5523209cee9fb675d434330fbf1360ff = L.marker(
+                [-19.9127167, -43.9776576],
+                {}
+            ).addTo(map_4f6fe10699e8f144aaad0abb38558877);
+        
+    
+            var icon_46b9e354de6cccda670557c2328d7df9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5523209cee9fb675d434330fbf1360ff.setIcon(icon_46b9e354de6cccda670557c2328d7df9);
+        
+    
+        var popup_e51604281126e6286592c6312c3824ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94fa95b0cab4148bf62aa7c2018edbe1 = $(`<div id="html_94fa95b0cab4148bf62aa7c2018edbe1" style="width: 100.0%; height: 100.0%;"><b>Só-Lanternas</b><br>Endereço: Avenida Dom Pedro II<br>Telefone: Telefone não disponível</div>`)[0];
+                popup_e51604281126e6286592c6312c3824ae.setContent(html_94fa95b0cab4148bf62aa7c2018edbe1);
+            
+        
+
+        marker_5523209cee9fb675d434330fbf1360ff.bindPopup(popup_e51604281126e6286592c6312c3824ae)
+        ;
+
+        
+    
+    
+            var marker_e540d2c3b74e00a8abbe6a603b6b172d = L.marker(
+                [-19.9115492, -43.9963805],
+                {}
+            ).addTo(map_4f6fe10699e8f144aaad0abb38558877);
+        
+    
+            var icon_15e1616ab8b016a85cc189c07f5900a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e540d2c3b74e00a8abbe6a603b6b172d.setIcon(icon_15e1616ab8b016a85cc189c07f5900a3);
+        
+    
+        var popup_6b9a608882f55249f0d14ce6be6770f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c441d9275f535e5e856f29a7f89786af = $(`<div id="html_c441d9275f535e5e856f29a7f89786af" style="width: 100.0%; height: 100.0%;"><b>Império Mangueiras</b><br>Endereço: Avenida Abílio Machado<br>Telefone: Telefone não disponível</div>`)[0];
+                popup_6b9a608882f55249f0d14ce6be6770f2.setContent(html_c441d9275f535e5e856f29a7f89786af);
+            
+        
+
+        marker_e540d2c3b74e00a8abbe6a603b6b172d.bindPopup(popup_6b9a608882f55249f0d14ce6be6770f2)
+        ;
+
+        
+    
+    
+            var marker_a659a34d58b85230d757cd077a88194d = L.marker(
+                [-19.9747494, -43.9767732],
+                {}
+            ).addTo(map_4f6fe10699e8f144aaad0abb38558877);
+        
+    
+            var icon_e1f2e309834cf19fb9105dd31be8bb03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a659a34d58b85230d757cd077a88194d.setIcon(icon_e1f2e309834cf19fb9105dd31be8bb03);
+        
+    
+        var popup_96746ff0a4bd43365944e7dc64f8ec78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bd518e5fd9eb4f69554577c06371a46 = $(`<div id="html_2bd518e5fd9eb4f69554577c06371a46" style="width: 100.0%; height: 100.0%;"><b>Vrum Serviços e Peças Automotivos</b><br>Endereço: Avenida Aggeo Pio Sobrinho<br>Telefone: Telefone não disponível</div>`)[0];
+                popup_96746ff0a4bd43365944e7dc64f8ec78.setContent(html_2bd518e5fd9eb4f69554577c06371a46);
+            
+        
+
+        marker_a659a34d58b85230d757cd077a88194d.bindPopup(popup_96746ff0a4bd43365944e7dc64f8ec78)
+        ;
+
+        
+    
+    
+            var marker_a60837f6d8ad97ab5cac5244b38b583c = L.marker(
+                [-19.7759383, -44.1336289],
+                {}
+            ).addTo(map_4f6fe10699e8f144aaad0abb38558877);
+        
+    
+            var icon_f05e4235456e51ccba522190c47457fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a60837f6d8ad97ab5cac5244b38b583c.setIcon(icon_f05e4235456e51ccba522190c47457fb);
+        
+    
+        var popup_53d0dbf9428250a86a54c94523f738aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10f9cb65cee88e4001388f8a4ee86d57 = $(`<div id="html_10f9cb65cee88e4001388f8a4ee86d57" style="width: 100.0%; height: 100.0%;"><b>iluminar lâmpadas automotivas</b><br>Endereço: Rua alice maria esméria<br>Telefone: Telefone não disponível</div>`)[0];
+                popup_53d0dbf9428250a86a54c94523f738aa.setContent(html_10f9cb65cee88e4001388f8a4ee86d57);
+            
+        
+
+        marker_a60837f6d8ad97ab5cac5244b38b583c.bindPopup(popup_53d0dbf9428250a86a54c94523f738aa)
+        ;
+
+        
+    
+    
+            var marker_b146c1caf3c1e7e84f5d27cd64584aeb = L.marker(
+                [-19.9010486, -43.9334538],
+                {}
+            ).addTo(map_4f6fe10699e8f144aaad0abb38558877);
+        
+    
+            var icon_d33737ae0daef0ce49132b33a10d0957 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b146c1caf3c1e7e84f5d27cd64584aeb.setIcon(icon_d33737ae0daef0ce49132b33a10d0957);
+        
+    
+        var popup_b016afbbdb2539d2652073b7496d217b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_989ee1c6f6e6756b460ec07daf9865c0 = $(`<div id="html_989ee1c6f6e6756b460ec07daf9865c0" style="width: 100.0%; height: 100.0%;"><b>Detroit Bancos de Couros e Estética Automotiva BH</b><br>Endereço: Rua Jacuí<br>Telefone: Telefone não disponível</div>`)[0];
+                popup_b016afbbdb2539d2652073b7496d217b.setContent(html_989ee1c6f6e6756b460ec07daf9865c0);
+            
+        
+
+        marker_b146c1caf3c1e7e84f5d27cd64584aeb.bindPopup(popup_b016afbbdb2539d2652073b7496d217b)
+        ;
+
+        
+    
+</script>
+</html>
